@@ -5,8 +5,8 @@ function fAffiche(){
       alert('saisir un nombre');
   }
     else{
-      var result = parseFloat(nb1) % parseFloat(nb2);
-      alert(result);
+      var resultat = parseFloat(nb1) % parseFloat(nb2);
+      alert(resultat);
     }
   }
 document.getElementById('submit').addEventListener("click",fAffiche);
